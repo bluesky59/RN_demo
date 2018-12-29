@@ -22,16 +22,15 @@ export let styles = StyleSheet.create({
     },
 //    主页主体部分
     warp: {
-        alignItems: 'center',
         paddingBottom: 140,
     },
     content: {
-        width: 360,
         backgroundColor: 'rgba(255,229,100,.3)',
         marginTop: 20,
         borderRadius: 8,
         flexDirection: 'row',
         padding: 10,
+        marginHorizontal: 20,
     },
     headerImg: {
         width: 45,
@@ -51,8 +50,10 @@ export let styles = StyleSheet.create({
         color: '#999',
     },
 //    关于界面
+    imgArr: {
+        height: 200,
+    },
     bookImg: {
-        height: 150,
-        marginBottom: 20,
-    }
+        height: 200,
+    },
 });
